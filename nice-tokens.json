@@ -1,5 +1,5 @@
 {
-  "Colors": {
+  "mirage": {
     "$description": "All the base color tokens",
     "$type": "color",
     "palette": {
@@ -47,10 +47,11 @@
       }
     }
   },
-  "Spacing": {
+  "Gaps": {
     "$description": "Spacing stuff",
     "margin": {
       "small": {
+        "$type": "spacing",
         "$value": "4px"
       },
       "medium": {
@@ -60,5 +61,8 @@
         "$value": "24px"
       }
     }
+  },
+  "Empty stuff": {
+     "$description": "Nothing here"
   }
 }
