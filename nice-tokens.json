@@ -43,7 +43,7 @@
       },
       "light-primary": {
         "$type": "color",
-        "$value": "{Colors.palette.primary90}"
+        "$value": "{mirage.palette.primary90}"
       }
     }
   },
