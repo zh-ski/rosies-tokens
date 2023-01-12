@@ -44,6 +44,10 @@
       "light-primary": {
         "$type": "color",
         "$value": "{mirage.palette.primary90}"
+      },
+      "dark-primary": {
+        "$type": "color",
+        "$value": "{mirage.palette.primary30}"
       }
     }
   },
