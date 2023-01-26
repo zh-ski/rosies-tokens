@@ -59,9 +59,11 @@
         "$value": "4px"
       },
       "medium": {
+        "$type": "spacing",
         "$value": "12px"
       },
       "large": {
+        "$type": "spacing",
         "$value": "24px"
       }
     }
