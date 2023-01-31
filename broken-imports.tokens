@@ -47,7 +47,7 @@
       },
       "dark-primary": {
         "$type": "color",
-        "$value": "{mirage.palette.primary30}"
+        "$value": "{broken.palette.primary30}"
       }
     }
   },
@@ -56,7 +56,7 @@
     "margin": {
       "small": {
         "$type": "spacing",
-        "$value": 2
+        "$value": "{broken.Space.neutal}"
       },
       "medium": {
         "$type": "spacing",
