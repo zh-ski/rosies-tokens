@@ -45,40 +45,43 @@
         "$type": "color",
         "$value": "{broken.palette.primary90}"
       },
-      "light-primary": {
+      "light-primary1": {
         "$type": "color",
         "$value": "{broken.palette.primary90}"
       },
-      "light-primary": {
+      "light-primary2": {
         "$type": "color",
         "$value": "{broken.palette.primary90}"
       },
-      "light-primary": {
+      "light-primary3": {
         "$type": "color",
         "$value": "{broken.palette.primary90}"
       },
-      "light-primary": {
-        "$type": "color",
-        "$value": "{broken.palette.primary90}"
-      },"light-primary": {
-        "$type": "color",
-        "$value": "{broken.palette.primary90}"
-      },"light-primary": {
-        "$type": "color",
-        "$value": "{broken.palette.primary90}"
-      },"light-primary": {
+      "light-primary4": {
         "$type": "color",
         "$value": "{broken.palette.primary90}"
       },
-      "light-primary": {
+      "light-primary5": {
         "$type": "color",
         "$value": "{broken.palette.primary90}"
       },
-      "light-primary": {
+      "light-primary6": {
         "$type": "color",
         "$value": "{broken.palette.primary90}"
       },
-      "light-primary": {
+      "light-primary7": {
+        "$type": "color",
+        "$value": "{broken.palette.primary90}"
+      },
+      "light-primary8": {
+        "$type": "color",
+        "$value": "{broken.palette.primary90}"
+      },
+      "light-primary9": {
+        "$type": "color",
+        "$value": "{broken.palette.primary90}"
+      },
+      "light-primary10": {
         "$type": "color",
         "$value": "{broken.palette.primary90}"
       },
