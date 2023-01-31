@@ -45,6 +45,43 @@
         "$type": "color",
         "$value": "{broken.palette.primary90}"
       },
+      "light-primary": {
+        "$type": "color",
+        "$value": "{broken.palette.primary90}"
+      },
+      "light-primary": {
+        "$type": "color",
+        "$value": "{broken.palette.primary90}"
+      },
+      "light-primary": {
+        "$type": "color",
+        "$value": "{broken.palette.primary90}"
+      },
+      "light-primary": {
+        "$type": "color",
+        "$value": "{broken.palette.primary90}"
+      },"light-primary": {
+        "$type": "color",
+        "$value": "{broken.palette.primary90}"
+      },"light-primary": {
+        "$type": "color",
+        "$value": "{broken.palette.primary90}"
+      },"light-primary": {
+        "$type": "color",
+        "$value": "{broken.palette.primary90}"
+      },
+      "light-primary": {
+        "$type": "color",
+        "$value": "{broken.palette.primary90}"
+      },
+      "light-primary": {
+        "$type": "color",
+        "$value": "{broken.palette.primary90}"
+      },
+      "light-primary": {
+        "$type": "color",
+        "$value": "{broken.palette.primary90}"
+      },
       "dark-primary": {
         "$type": "color",
         "$value": "{broken.palette.primary30}"
