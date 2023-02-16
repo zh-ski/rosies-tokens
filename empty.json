@@ -1,19 +1,5 @@
 {
   "Gaps": {
-    "$description": "Spacing stuff",
-    "margin": {
-      "small": {
-        "$type": "spacing",
-        "$value": "4px"
-      },
-      "medium": {
-        "$type": "spacing",
-        "$value": "12px"
-      },
-      "large": {
-        "$type": "spacing",
-        "$value": "24px"
-      }
-    }
+    "$description": "Spacing stuff"
   }
 }
