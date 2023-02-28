@@ -1,7 +1,7 @@
 {
   "mirage": {
-    "$description": "All the base color tokens",
     "$type": "color",
+    "$description": "All the base color tokens",
     "palette": {
       "primary30": {
         "$type": "color",
@@ -49,6 +49,11 @@
         "$type": "color",
         "$value": "{mirage.palette.primary30}"
       }
+    },
+    "test": {
+      "$type": "color",
+      "$value": "{mirage.palette.primary40}",
+      "$description": ""
     }
   },
   "Gaps": {
@@ -67,8 +72,5 @@
         "$value": "24px"
       }
     }
-  },
-  "Empty stuff": {
-     "$description": "Nothing here"
   }
 }
