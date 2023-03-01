@@ -62,7 +62,7 @@
   },
   "animation": {
     "$description": "Random tokens",
-    "margin": {
+    "basics": {
       "small": {
         "$type": "cubicBezier",
         "$description": "Basic animation coordinates",
