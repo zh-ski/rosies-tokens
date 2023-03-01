@@ -30,6 +30,10 @@
       "primary90": {
         "$type": "color",
         "$value": "#EADDFF"
+      },
+      "primary95": {
+        "$type": "color",
+        "$value": "#EAFFFF"
       }
     },
     "backgrounds": {
