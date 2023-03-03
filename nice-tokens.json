@@ -1,78 +1,75 @@
 {
   "mirage": {
-    "$description": "All the base color tokens",
     "$type": "color",
+    "$description": "All the base color tokens",
     "palette": {
-      "primary30": {
+      "primary95": {
         "$type": "color",
-        "$value": "#4F378B"
-      },
-      "primary40": {
-        "$type": "color",
-        "$value": "#6750A4"
-      },
-      "primary50": {
-        "$type": "color",
-        "$value": "#826BBB"
-      },
-      "primary60": {
-        "$type": "color",
-        "$value": "#9C86D2"
-      },
-      "primary70": {
-        "$type": "color",
-        "$value": "#B6A1E9"
-      },
-      "primary80": {
-        "$type": "color",
-        "$value": "#D0BCFF"
+        "$value": "#EAFFFF"
       },
       "primary90": {
         "$type": "color",
         "$value": "#EADDFF"
       },
-      "primary95": {
+      "primary80": {
         "$type": "color",
-        "$value": "#EAFFFF"
+        "$value": "#D0BCFF"
+      },
+      "primary70": {
+        "$type": "color",
+        "$value": "#B6A1E9"
+      },
+      "primary60": {
+        "$type": "color",
+        "$value": "#9C86D2"
+      },
+      "primary50": {
+        "$type": "color",
+        "$value": "#826BBB"
+      },
+      "primary40": {
+        "$type": "color",
+        "$value": "#6750A4"
+      },
+      "primary30": {
+        "$type": "color",
+        "$value": "#4F378B"
       }
     },
     "backgrounds": {
-      "light": {
+      "dark-primary": {
         "$type": "color",
-        "$value": "#FAFAFA"
-      },
-      "dark": {
-        "$type": "color",
-        "$value": "#1B2430"
+        "$value": "{mirage.palette.primary30}"
       },
       "light-primary": {
         "$type": "color",
         "$value": "{mirage.palette.primary90}"
       },
-      "dark-primary": {
+      "dark": {
         "$type": "color",
-        "$value": "{mirage.palette.primary30}"
+        "$value": "#1B2430"
+      },
+      "light": {
+        "$type": "color",
+        "$value": "#FAFAFA"
       }
     }
   },
   "Gaps": {
     "$description": "Spacing stuff",
     "margin": {
-      "small": {
+      "large": {
         "$type": "spacing",
-        "$value": "4px"
+        "$value": "24px"
       },
       "medium": {
         "$type": "spacing",
         "$value": "12px"
       },
-      "large": {
+      "small": {
         "$type": "spacing",
-        "$value": "24px"
+        "$value": "4px"
       }
     }
-  },
-  "Empty stuff": {
-     "$description": "Nothing here"
   }
 }
