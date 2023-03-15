@@ -1,7 +1,25 @@
 {
   "mirage": {
-    "$description": "All the base color tokens",
     "$type": "color",
+    "$description": "All the base color tokens",
+    "backgrounds": {
+      "light": {
+        "$type": "color",
+        "$value": "#FAFAFA"
+      },
+      "dark": {
+        "$type": "color",
+        "$value": "#1B2430"
+      },
+      "light-primary": {
+        "$type": "color",
+        "$value": "{mirage.palette.primary90}"
+      },
+      "dark-primary": {
+        "$type": "color",
+        "$value": "{mirage.palette.primary30}"
+      }
+    },
     "palette": {
       "primary30": {
         "$type": "color",
@@ -33,25 +51,7 @@
       },
       "primary95": {
         "$type": "color",
-        "$value": "#BEEEEF"
-      }
-    },
-    "backgrounds": {
-      "light": {
-        "$type": "color",
-        "$value": "#FAFAFA"
-      },
-      "dark": {
-        "$type": "color",
-        "$value": "#1B2430"
-      },
-      "light-primary": {
-        "$type": "color",
-        "$value": "{mirage.palette.primary90}"
-      },
-      "dark-primary": {
-        "$type": "color",
-        "$value": "{mirage.palette.primary30}"
+        "$value": "#FAF6FF"
       }
     }
   },
@@ -71,8 +71,5 @@
         "$value": "24px"
       }
     }
-  },
-  "Empty stuff": {
-     "$description": "Nothing here"
   }
 }
