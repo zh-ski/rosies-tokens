@@ -1,0 +1,27 @@
+{
+  "scripts": {
+    "prestart": "yarn install",
+    "start": "yarn shutdown-dev-server; yarn start-server & yarn start-cypress",
+    "shutdown-dev-server": "lsof -t -i tcp:3000 | xargs kill",
+    "start-server": "bundle exec rails server -d -e test -p 3000",
+    "start-server-debug": "rdbg -n --open -- ../bin/rails server -e test -p 3000",
+    "start-cypress": "yarn cypress open --project .",
+    "run-cypress": "yarn cypress run --project .",
+    "run-cypress-sorry": "npx cy2 run --record --key zeroheight --parallel --browser chrome",
+    "start-storybook": "cd ..; make storybook"
+  },
+  "devDependencies": {
+    "axe-core": "^4.4.1",
+    "cy2": "^4.0.6",
+    "cypress": "^13.2.0",
+    "cypress-axe": "^0.14.0",
+    "cypress-split": "^1.3.7"
+  },
+  "dependencies": {
+    "clipboardy": "^2.3.0",
+    "cypress-real-events": "^1.7.6",
+    "run-applescript": "^5.0.0"
+    "common-colors": "1.0.0"
+  },
+  "packageManager": "yarn@3.5.0"
+}
