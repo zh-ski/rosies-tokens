@@ -20,7 +20,7 @@
   "dependencies": {
     "clipboardy": "^2.3.0",
     "cypress-real-events": "^1.7.6",
-    "run-applescript": "^5.0.0"
+    "run-applescript": "^5.0.0",
     "common-colors": "1.0.0"
   },
   "packageManager": "yarn@3.5.0"
