@@ -1,7 +1,42 @@
 {
+  "Gaps": {
+    "$description": "Spacing stuff",
+    "margin": {
+      "large": {
+        "$type": "spacing",
+        "$value": "24px"
+      },
+      "medium": {
+        "$type": "spacing",
+        "$value": "12px"
+      },
+      "small": {
+        "$type": "spacing",
+        "$value": "4px"
+      }
+    }
+  },
   "mirage": {
     "$description": "All the base color tokens",
     "$type": "color",
+    "backgrounds": {
+      "dark": {
+        "$type": "color",
+        "$value": "#1B2430"
+      },
+      "dark-primary": {
+        "$type": "color",
+        "$value": "{mirage.palette.primary30}"
+      },
+      "light": {
+        "$type": "color",
+        "$value": "#FAFAFA"
+      },
+      "light-primary": {
+        "$type": "color",
+        "$value": "{mirage.palette.primary90}"
+      }
+    },
     "palette": {
       "primary30": {
         "$type": "color",
@@ -35,44 +70,6 @@
         "$type": "color",
         "$value": "#BEEEEF"
       }
-    },
-    "backgrounds": {
-      "light": {
-        "$type": "color",
-        "$value": "#FAFAFA"
-      },
-      "dark": {
-        "$type": "color",
-        "$value": "#1B2430"
-      },
-      "light-primary": {
-        "$type": "color",
-        "$value": "{mirage.palette.primary90}"
-      },
-      "dark-primary": {
-        "$type": "color",
-        "$value": "{mirage.palette.primary30}"
-      }
     }
-  },
-  "Gaps": {
-    "$description": "Spacing stuff",
-    "margin": {
-      "small": {
-        "$type": "spacing",
-        "$value": "4px"
-      },
-      "medium": {
-        "$type": "spacing",
-        "$value": "12px"
-      },
-      "large": {
-        "$type": "spacing",
-        "$value": "24px"
-      }
-    }
-  },
-  "Empty stuff": {
-     "$description": "Nothing here"
   }
 }
